@@ -23,11 +23,6 @@
             <artifactId>jmeter-maven-plugin</artifactId>
             <version>${lazerycode.jmeter.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.lazerycode.jmeter</groupId>
-            <artifactId>jmeter-analysis-maven-plugin</artifactId>
-            <version>1.0.6</version>
-        </dependency>
 
     </dependencies>
     <build>
@@ -73,7 +68,7 @@
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
-                <version>${lazerycode.jmeter.version}</version>
+                <version>2.6.0</version>
                 <executions>
                     <execution>
                         <id>jmeter-tests</id>
